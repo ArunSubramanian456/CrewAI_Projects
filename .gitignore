@@ -5,3 +5,10 @@
 **/DNU/
 crewaidemo/
 .env
+**/.streamlit/secrets.toml
+**/.DS_Store
+__pycache__
+2_Trip_Planner/api_app.py
+2_Trip_Planner/curl_request.txt
+2_Trip_Planner/flow_diagram.svg
+2_Trip_Planner/flow_diagram.txt
