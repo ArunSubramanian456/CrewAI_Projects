@@ -1,0 +1,10 @@
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/.env
+**/db/
+**/DNU/
+crewaidemo/
+.env
+**/.streamlit/secrets.toml
+**/.DS_Store
+__pycache__
