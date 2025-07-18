@@ -192,12 +192,7 @@ if prompt:
         with st.spinner("Thinking..."):
             inputs = {"query": prompt}
             result = st.session_state.crew.kickoff(inputs=inputs)
-            if isinstance(result, str):
-                full_response = result
-            elif isinstance(result, dict) and "content" in result:
-                full_response = result["content"]
-            else:
-                full_response = "I am sorry, I could not find the information you are looking for."
+            full_response = str(result)
         
         # Show the final response without the cursor
         message_placeholder.markdown(full_response)
